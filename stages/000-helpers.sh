@@ -9,3 +9,7 @@ function info(){
 function warn(){
   log "WARN" $1
 }
+
+function stage(){
+  log "STAGE" $1
+}
