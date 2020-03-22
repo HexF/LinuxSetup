@@ -18,3 +18,13 @@ function error(){
   log "ERROR" $1
   exit
 }
+
+function debug(){
+  log "DEBUG" $1
+}
+
+
+function al(){
+  debug "Running '$1' in chroot"
+  arch-chroot /mnt bash -c "$1"
+}
