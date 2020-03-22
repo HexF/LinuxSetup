@@ -17,7 +17,7 @@ jobs:
     - name: Merge all stages into single file
       run: |
         cat stages/*.sh > install.sh
-        sed 's/source .\/000-helpers.sh//g' install.sh
+        sed 's/source .\/000-helpers.sh//g' install.sh install.sh
         
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
