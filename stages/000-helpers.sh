@@ -13,3 +13,8 @@ function warn(){
 function stage(){
   log "STAGE" $1
 }
+
+function error(){
+  log "ERROR" $1
+  exit
+}
