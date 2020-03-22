@@ -4,6 +4,7 @@ TIMEZONE="Pacific/Auckland"
 LOCALE="en_US.UTF-8"
 CHARSET="UTF-8"
 HOSTNAME="potato"
+ROOTPASSWD="potato2"
 
 function log(){
   echo "[$1]" $2
