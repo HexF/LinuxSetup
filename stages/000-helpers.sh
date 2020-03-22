@@ -1,3 +1,10 @@
+# Here we would `source` our config file, for now we will just hardcode them in
+
+TIMEZONE="Pacific/Auckland"
+LOCALE="en_US.UTF-8"
+CHARSET="UTF-8"
+HOSTNAME="potato"
+
 function log(){
   echo "[$1]" $2
 }
